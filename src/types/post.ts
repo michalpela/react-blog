@@ -4,7 +4,7 @@ export interface SinglePost {
     _id: string;
     title: string;
     content: string;
-    keyWords: string;
+    keyWords: string[];
     date: string;
     comments: Comment[];
 }
@@ -12,7 +12,7 @@ export interface PostSummary {
     _id: string;
     title: string;
     content: string;
-    keyWords: string;
+    keyWords: string[];
     date: string;
 }
 
